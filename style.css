@@ -45,7 +45,7 @@ p{
 }
 
 .btn{
-    background-color: #236ac1;
+    background-color: #227240;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -61,13 +61,13 @@ p{
 }
 
 .btn:hover{
-    background-color: #3580db;
+    background-color: #227240;
 
 } 
 
 @keyframes animate-outline {
     from{
-        outline: 0px solid #4f9bf98a;
+        outline: 0px solid #1c5d3d8a;
     }
     to{
         outline: 15px solid #4f9bf900;
@@ -105,7 +105,7 @@ nav ul a{
 
 nav ul a:not(.btn):after{
     content: "";
-    background-color: #236ac1;
+    background-color: #227240;
     height: 3px;
     width: 0%;
     display: block;
@@ -181,12 +181,12 @@ nav .close-icon{
 }
 
 .footer{
-    background-color: #22436b;
+    background-color: #235636;
     text-align: center;
 }
 
 .footer i{
-    color: #3580db;
+    color: #227240;
     font-size: 19px;
     background-color: white;
     padding: 10px;
@@ -209,7 +209,7 @@ nav .close-icon{
 .contato-info .left-side{
     width: 50%;
     padding: 30px;
-    background-color: #22436b;
+    background-color: #1a5430;
     border-radius: 14px;
     margin-right: 50px;
     height: fit-content;
@@ -251,7 +251,7 @@ nav .close-icon{
 
 .contato-info .right-side input:focus,
 .contato-info .right-side textarea:focus{
-    border-color: #236ac1;
+    border-color: #227240;
 }
 
 .contato-info .right-side textarea{
@@ -275,7 +275,7 @@ nav .close-icon{
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #22436b;
+        background-color: #1a5430;
         width: 100%;
         height: 100%;
         flex-direction: column;

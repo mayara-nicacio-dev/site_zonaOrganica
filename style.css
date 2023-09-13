@@ -194,6 +194,12 @@ nav .close-icon{
     text-align: center;
 }
 
+.image-container {
+    float: left; /* Move a imagem para a esquerda */
+    margin-right: 20px;
+    width: -500px;
+}
+
 .footer i{
     color: #227240;
     font-size: 19px;

@@ -35,6 +35,15 @@ p{
     height: auto;
 }
 
+.form-group {
+    margin-bottom: 25px; /* Adicione a margem vertical desejada aqui */
+}
+
+.fundo-cinza-claro {
+    background-color: #5ba55d7e;
+    padding:-400px;
+}
+
 .logo{
     width: 5%;
 }
@@ -356,4 +365,5 @@ nav .close-icon{
             font-size: 40px;
         }
     }
+    
 }

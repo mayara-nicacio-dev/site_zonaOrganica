@@ -163,6 +163,62 @@ nav .close-icon{
     text-decoration: dotted;
 }
 
+.produtos h3{
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+
+.cards1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+
+.cards2{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos .card-item{
+    background-color: #c9e7d5;
+    margin: 5px;
+    border-radius: 18px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.produtos .card-item img{
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+.produtos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.produtos .card-item .preco-user{
+    font-size: 20px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+
+.produtos .card-item:hover{
+    background-color: #3b945d;
+    margin-top: -5px;
+}
+
+.produtos .card-item:hover .nome-user,
+.produtos .card-item:hover .preco-user{
+    color: white;
+}
+
 .faca-mais .container{
     display: flex;
     align-items: center;
